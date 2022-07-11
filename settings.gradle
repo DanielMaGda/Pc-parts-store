@@ -1,0 +1,6 @@
+rootProject.name = 'pc-parts-store'
+include 'pc-parts-store-service'
+include 'pc-parts-store-core'
+//include("pc-parts-store-service","pc-parts-store-core")
+include 'pc-parts-store-core'
+
