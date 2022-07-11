@@ -38,4 +38,8 @@ export class LoginComponent implements OnInit {
       this.loginSuccess = false;
     });
   }
+
+  RegisterPage() {
+    this.router.navigate(['/register'])
+  }
 }
